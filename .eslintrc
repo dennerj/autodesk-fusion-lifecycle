@@ -1,0 +1,46 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "airbnb-base/legacy",
+    "globals": {
+        "item": true,
+        "Security": true,
+        "userID": true,
+        "customTransID": true,
+        "returnValue": true,
+        "println": true,
+        "Logger": true,
+        "Email": true,
+        "getPrintView": true,
+        "createItem": true,
+        "loadItem": true,
+        "dmsID": true,
+        "workspaceID": true,
+        "oceAPI": true
+    },
+    "rules": {
+        "block-scoped-var": "off",
+        "eol-last": "off",
+        "func-names": ["error", "as-needed"],
+        "global-require": "off",
+        "guard-for-in": "off",
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "linebreak-style": ["error", "windows"],
+        "max-len": "off",
+        "no-param-reassign": "off",
+        "no-plusplus": "off",
+        "no-restricted-syntax": "off",
+        "no-var": "off",
+        "no-unused-vars": ["error", { "vars": "local" }],
+        "object-shorthand": "off",
+        "prefer-destructuring": "off",
+        "prefer-template": "off",
+        "prefer-rest-params": "off",
+        "prefer-arrow-callback": "off",
+        "quotes": ["error", "single"],
+        "quote-props": "off",
+        "semi": ["error", "always"],
+        "vars-on-top": "off"
+    }
+}
